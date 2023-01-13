@@ -45,36 +45,69 @@ const MainContainer = () => {
                     <h3 className="text-yellow-600">Browse</h3>
                     <h2 className="text-3xl">Explore Our Menu</h2>
                 </div>
-                <div className="flex">
+                <div className="flex mt-10 gap-4">
                     <div>
-                        <ul>
-                            <li><a>Breakfast</a></li>
-                            <li><a>Breakfast</a></li>
-                            <li><a>Breakfast</a></li>
-                            <li><a>Breakfast</a></li>
-                            <li><a>Breakfast</a></li>
-                            <li><a>Breakfast</a></li>
+                        <ul className="md:flex hidden flex-col gap-9">
+                            <li><a href="#" className="p-4 focus:text-yellow-700 focus:border-l-2 focus:border-yellow-700">Breakfast</a></li>
+                            <li><a href="#" className="p-4 focus:text-yellow-700 focus:border-l-2 focus:border-yellow-700">Breakfast</a></li>
+                            <li><a href="#" className="p-4 focus:text-yellow-700 focus:border-l-2 focus:border-yellow-700">Breakfast</a></li>
+                            <li><a href="#" className="p-4 focus:text-yellow-700 focus:border-l-2 focus:border-yellow-700">Breakfast</a></li>
+                            <li><a href="#" className="p-4 focus:text-yellow-700 focus:border-l-2 focus:border-yellow-700">Breakfast</a></li>
+                            <li><a href="#" className="p-4 focus:text-yellow-700 focus:border-l-2 focus:border-yellow-700">Breakfast</a></li>
                         </ul>
                     </div>
-                    <div className="grid grid-cols-3">
+                    <div className="grid grid-cols-3 gap-2 md:gap-4">
                         <Card 
                             image = {Salmon}
                             title = 'Salmon Steak'
                             des = {
                                 <div>
                                     <div className="flex w-full justify-center ">
-                                        <img src={Star} className='w-5' />
-                                        <img src={Star} className='w-5' />
-                                        <img src={Star} className='w-5' />
-                                        <img src={Star} className='w-5' />
-                                        <img src={Star} className='w-5' />
-                                        <img src={Star} className='w-5' />
+                                        <img src={Star} className='w-3 md:w-5' />
+                                        <img src={Star} className='w-3 md:w-5' />
+                                        <img src={Star} className='w-3 md:w-5' />
+                                        <img src={Star} className='w-3 md:w-5' />
+                                        <img src={Star} className='w-3 md:w-5' />
+                                        <img src={Star} className='w-3 md:w-5' />
                                     </div>
                                     <p>$ 100.00</p>
                                 </div>
                             }
                         />
-                        
+                        <Card 
+                            image = {Salmon}
+                            title = 'Salmon Steak'
+                            des = {
+                                <div>
+                                    <div className="flex w-full justify-center ">
+                                        <img src={Star} className='w-3 md:w-5' />
+                                        <img src={Star} className='w-3 md:w-5' />
+                                        <img src={Star} className='w-3 md:w-5' />
+                                        <img src={Star} className='w-3 md:w-5' />
+                                        <img src={Star} className='w-3 md:w-5' />
+                                        <img src={Star} className='w-3 md:w-5' />
+                                    </div>
+                                    <p>$ 100.00</p>
+                                </div>
+                            }
+                        />
+                        <Card 
+                            image = {Salmon}
+                            title = 'Salmon Steak'
+                            des = {
+                                <div>
+                                    <div className="flex w-full justify-center ">
+                                        <img src={Star} className='w-3 md:w-5' />
+                                        <img src={Star} className='w-3 md:w-5' />
+                                        <img src={Star} className='w-3 md:w-5' />
+                                        <img src={Star} className='w-3 md:w-5' />
+                                        <img src={Star} className='w-3 md:w-5' />
+                                        <img src={Star} className='w-3 md:w-5' />
+                                    </div>
+                                    <p>$ 100.00</p>
+                                </div>
+                            }
+                        />
                     </div>
                 </div>
             </div>
