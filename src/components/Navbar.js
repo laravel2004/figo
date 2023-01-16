@@ -16,8 +16,8 @@ const Navbar = (props) => {
             <div className="w-14 mt-2">
                 {props.childrenLogo}
             </div>
-            <div className="absolute md:relative text-white md:text-slate-800">
-                <ul className={`flex  gap-4 justify-center md:justify-around items-center flex-col md:flex-row ease-in duration-300 md:w-full md:h-full w-screen h-screen md:translate-y-0 warna-bg opacity-60 md:bg-transparent ${menu ? 'translate-y-0' : '-translate-y-[1000px]'}`}>
+            <div className="absolute md:relative md:text-slate-800">
+                <ul className={`flex  gap-4 justify-center md:justify-around items-center flex-col md:flex-row ease-in duration-300 md:w-full md:h-full  md:translate-y-0 bg-slate-100 backdrop-blur-lg text-black md:bg-transparent ${menu ? 'translate-y-0 w-screen h-screen' : '-translate-y-[1000px]'}`}>
                     {props.children}
                 </ul>
             </div>
