@@ -1,0 +1,16 @@
+[{
+    "id" : 1,
+    "image" : "https://tinypic.host/images/2023/01/16/Food1.th.png",
+    "title" : "Kebab"
+},
+{
+    "id" : 2,
+    "image" : "https://tinypic.host/images/2023/01/16/Food2.th.png",
+    "title" : "Nugget"
+},
+{
+    "id" : 3,
+    "image" : "https://tinypic.host/images/2023/01/16/Food3.th.png",
+    "title" : "Mayo"
+}
+]   

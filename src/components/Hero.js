@@ -5,7 +5,7 @@ import Pizza from './../assets/Pizza.png'
 const Hero = () => {
     
     return(
-        <div className="grid grid-cols-1 md:grid-cols-2 justify-around gap-4 md:mt-14 mt-5">
+        <div className="grid grid-cols-1 md:grid-cols-2 justify-around gap-4 md:mt-14 mt-5" id="hero">
             <div className="mt-14">
                 <h1 className="font-medium text-5xl">All Good Taste Food With Figo.</h1>
                 <p className="mt-4 text-sm">Quikly predominate standart compliant architecture and may have prospective internal or organic source</p>
